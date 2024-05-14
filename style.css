@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #080808;
+    color: #ffffff;
+    font: 400 16px 'Be Vietnam Pro', Arial, sans-serif;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;;
+    padding: 0 15px;
+}
+
+.header {
+    padding: 25px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent transparent #54ebb9 transparent;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(to top right,#54ebb9, 75%, #ccf3e6);
+    color: black;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+}
+.header .btn {
+    width: 220px;
+    height: 60px;
+}
+.btn:hover {
+    opacity: 1;
+}
+
+
+.header_list {
+    display: flex;
+    gap: 56px;
+}
+
+.header_nav a{
+    font-size: 16px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.header_nav a.active {
+    opacity: 1;
+}
+
+.header_nav a:hover{
+    opacity: 0.9;
+}
+
+
+.welcome .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    height: 526px;
+    margin: 22px auto;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 334px;
+}
+
+.main_text .color {
+    background: linear-gradient(to top right,#54ebb9, 75%, #ccf3e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.welcome_title {
+    max-width: 636px;
+    font: 900 48px 'Be Vietnam Pro', Arial, sans-serif;
+}
+
+
+.input-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    margin-top: 30px;
+    width: 440px;
+    height: 60px;
+    background: #eeeeee;
+    border: #54ebb9 solid 1px;
+    border-radius: 10px;
+}
+.input_field {
+    width: 300px;
+    height: 50px;
+    border: none;
+    color: #080808;
+    background: #eeeeee;
+    font: 400 16px 'Be Vietnam Pro', Arial, sans-serif;
+
+    outline: none;
+}
+
+.input-button-container .btn {
+    width: 130px;
+    height: 50px;
+}
+
+
+.partners_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px auto;
+}
+
+.employee .container {
+    margin: 64px auto;
+    max-width: 700px;
+}
+
+.employee_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.employee_text .color {
+    color: rgb(214, 214, 214);
+}
+
+.employee_quote {font: 500 35px 'Be Vietnam Pro', Arial, sans-serif;}
+.employee_name {font: 400 16px 'Be Vietnam Pro', Arial, sans-serif; margin-top: 15px}
+
